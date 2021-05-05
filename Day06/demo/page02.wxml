@@ -1,0 +1,2 @@
+<button type="primary" bindtap="upload">请选择图片</button>
+<image src="{{path}}"></image>

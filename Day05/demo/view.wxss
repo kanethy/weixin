@@ -1,0 +1,79 @@
+page{
+  background-color: #f9f9f9;
+}
+.container{
+  margin:0 15rpx;
+}
+.book{
+  display: flex;
+  align-items: center;
+  margin:15rpx 0;
+  padding-top:10rpx;
+  padding-left:10rpx;
+  background-color: #fff;
+}
+.book .cover{
+  margin-right:15rpx;
+}
+.book .cover image{
+  width:120rpx;
+  height: 160rpx;
+  border-radius: 10rpx;
+}
+.book .txt .title{
+  margin-bottom:12rpx;
+  font-size:26rpx;
+  color:#333;
+  font-family: 'Microsoft Yahei';
+}
+.book .txt .desc{
+  font-size:24rpx;
+  line-height: 1.5em;
+  height:70rpx;
+  overflow: hidden;
+  color:#666;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.book .txt .author{
+  margin-top:12rpx;
+  font-size:22rpx;
+  color:#666;
+}
+/* 没有评论信息时的提示 */
+.tips {
+  margin-bottom: 15rpx;
+  font-size:26rpx;
+  font-family: 'Microsoft Yahei';
+}
+/* 单一评论容器 */
+.comment-item{
+  display: flex;
+  align-items:center;
+  padding:10rpx;
+  margin-bottom:15rpx;
+  background-color: #fff;
+}
+/* 用户头像的容器 */
+.comment-item .avatar{
+  margin-right:20rpx;
+}
+/* 用户头像的样式 */
+.comment-item .avatar image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+/* 用户昵称 */
+.comment-item .txt .nickname{
+  font-size:26rpx;
+  font-family: 'Microsoft Yahei';
+  margin-bottom:15rpx;
+}
+/* 评论内容 */
+.comment-item .txt .context{
+  font-size:28rpx;
+  line-height: 1.5em;
+  font-family: 'Microsoft Yahei';
+}

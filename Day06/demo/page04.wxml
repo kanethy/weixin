@@ -1,0 +1,4 @@
+<button type="primary" bindtap="modify">修改记录</button>
+<button type="primary" bindtap="remove">删除记录</button>
+<button type="primary" bindtap="byId">按ID查找记录</button>
+<button type="primary" bindtap="removebyId">按ID删除记录</button>

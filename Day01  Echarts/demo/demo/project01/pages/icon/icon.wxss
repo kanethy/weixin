@@ -1,0 +1,6 @@
+icon{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,9 @@
+<view>
+<text selectable="true">vivo S7 </text>
+<text selectable="true">超级夜景自拍2.0 无惧夜色的自拍神器</text>
+<text decode="true">A&gt;B</text>
+<text decode="true">B&lt;A</text>
+<text decode="true">A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B</text>
+<text decode="true">Tom&amp;John</text>
+<text decode="true">&apos;A&apos;</text>
+</view>

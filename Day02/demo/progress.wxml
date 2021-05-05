@@ -1,0 +1,7 @@
+<progress 
+  percent="20" 
+  show-info="true"
+  stroke-width="5"
+  activeColor="#0c0"
+  backgroundColor="#999">
+</progress>

@@ -1,0 +1,15 @@
+<button type="primary" bindtap="tap">事件绑定--tap</button>
+<button type="primary" bindlongtap="longtap">事件绑定--longtap</button>
+<button type="primary" bindtap="tap" bindlongtap="f2">tap&longtap</button>
+<button type="primary" bingtap="tab" bindlongpress="f3">tap&longpress</button>
+
+<view class="view" bindtap="f4">
+    <button type="primary" bindtap="f5">bind事件</button>
+</view>
+<view class="view" bindtap="f4">
+    <button type="primary" catchtap="f6">catch事件</button>
+</view>
+
+<view class="view">
+    <button type="primary" bindtap="modal">模态对话框</button>
+</view>

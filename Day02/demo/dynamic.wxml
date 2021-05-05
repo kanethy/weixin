@@ -1,0 +1,20 @@
+<view>
+  <text class="heading">{{className}}班级学生名单如下:</text>
+  <view 
+    class="student" 
+    wx:for="{{students}}" 
+    wx:for-index="key"
+    wx:key="key"
+    wx:for-item="student">
+      学号:{{key+1}}
+      姓名:{{student.studentName}}
+      年龄:{{student.age}}
+      性别:{{student.sex ? "男" : "女"}}
+      学历:
+      <text wx:if="{{student.education  == 1}}">专科</text>
+      <text wx:elif="{{student.education == 2}}">本科</text>
+      <text wx:elif="{{student.education == 3}}">研究生</text>
+      <text wx:elif="{{student.education == 4}}">硕士</text>
+      <text wx:elif="{{student.education == 5}}">博士</text>
+  </view> 
+</view>

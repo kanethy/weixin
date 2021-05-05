@@ -1,0 +1,4 @@
+<text>电影的标题：{{info.title}}</text>
+<text>电影的类型：{{info.genres}}</text>
+<text>电影的时长：{{info.durations}}</text>
+<text>电影的年份：{{info.year}}</text>

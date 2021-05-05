@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>微信聊天室</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/reset.css">
+		<link rel="stylesheet" href="styles/chart.css">
+	</head>
+	<body>
+		<div id="chart-container">
+			<div class="chart-user-list" id="chart-user-list">
+				<!-- <div class="user-item">
+						<img src="images/avatar/15.jpg" alt="">
+						未知名
+				</div> -->
+			</div>
+			<div class="chart-main-area">
+				<div class="chart-main-title">
+					<h1>微信聊天室(<span id="userNumber"></span>人)-<span id="currentUser"></span></h1>
+				</div>
+				<!-- 聊天内容列表开始 -->
+				<div class="chart-list" id="chart-list">
+					<div class="user-logined" id="user-logined"><span id="logined-user"></span>上线了</div>
+					<!-- <div class="chart-item">
+							<div class="user-face"><img src="images/avatar/11.jpg" alt=""></div>
+							<div class="user-message">111</div>
+					</div> -->
+					
+				</div>
+				<!-- 聊天内容列表结束 -->
+				<div class="chart-form">
+					<div>
+						<textarea class="chart-form-message" id="message"></textarea>
+					</div>
+					<div>
+						<input type="button" id="send" class="chart-form-send" value="发表" onclick="send()">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="scripts/socket.io.js"></script>
+		<script>				
+				//ws://127.0.0.1:5000代表socket.io的服务器的地址及端口
+				let client = io('ws://127.0.0.1:5000');
+		</script>
+	</body>
+</html>

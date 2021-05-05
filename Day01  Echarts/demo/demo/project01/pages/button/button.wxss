@@ -1,0 +1,4 @@
+page .view button{
+  width: 750rpx;
+  margin-bottom:15rpx;
+}

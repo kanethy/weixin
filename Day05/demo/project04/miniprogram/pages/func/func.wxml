@@ -1,0 +1,3 @@
+<button type="primary" bindtap="add">两数相加的和</button>
+
+<button type="primary" bindtap="removeAll">删除所有记录</button>

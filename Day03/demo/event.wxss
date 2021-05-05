@@ -1,0 +1,8 @@
+button{
+  margin-bottom: 15rpx;
+}
+.view{
+  padding:15rpx;
+  margin-bottom: 15rpx;
+  border:2px solid #333;
+}

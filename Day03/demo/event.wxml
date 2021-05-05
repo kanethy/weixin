@@ -1,0 +1,11 @@
+<button type="primary" bindtap="tap">事件测试 -- tap</button>
+<button type="primary" bindlongtap="longtap">事件测试 -- longtap</button>
+<button type="primary" bindtap="f1" bindlongtap="f2">tap&longtap</button>
+<button type="primary" bindtap="f1" bindlongpress="f3">tap&longpress</button>
+
+<view class="view" bindtap="f4">
+  <button type="primary" bindtap="f5">bindtap</button>
+</view>
+<view class="view" bindtap="f4">
+  <button type="primary" catchtap="f6">catchtap</button>
+</view>

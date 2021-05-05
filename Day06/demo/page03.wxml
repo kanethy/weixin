@@ -1,0 +1,3 @@
+<button type="primary" bindtap="insert">插入记录</button>
+<button type="primary" bindtap="selectAll">查询所有记录</button>
+<button type="primary" bindtap="specialField">查询指定字段</button>

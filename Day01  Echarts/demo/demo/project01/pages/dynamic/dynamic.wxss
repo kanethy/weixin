@@ -1,0 +1,10 @@
+.heading{
+  font-size:36rpx;
+  line-height: 1.5em;
+  margin-bottom: 30rpx;
+}
+.student{
+  padding-bottom:10rpx;
+  margin-bottom: 10rpx;
+  border-bottom: 1px solid #999;
+}

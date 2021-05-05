@@ -1,0 +1,17 @@
+<view>
+  <view>
+    <input type="text" placeholder="请输入家庭住址"></input>
+  </view>
+  <view>
+      <input type="number" placeholder="请输入年龄"></input>
+  </view>
+  <view>
+    <input type="digit" placeholder="请输入工资" focus="true"></input>
+  </view>
+  <view>
+    <input type="idcard" placeholder="请输入身份证号"></input>
+  </view>
+  <view>
+    <input type="text" password="true" placeholder="请输入手机短信验证码"></input>
+  </view>
+</view>

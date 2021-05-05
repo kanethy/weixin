@@ -1,0 +1,9 @@
+<view>
+    <navigator url="/pages/index/index" open-type="switchTab">首页</navigator>
+    <navigator url="/pages/cart/cart" open-type="switchTab">购物车</navigator>    
+    <navigator url="/pages/button/button">按钮</navigator>
+    <navigator url="../icon/icon">图标</navigator>
+    <navigator url="../swiper/swiper">轮播图</navigator>
+    <navigator url="/pages/swiper/swiper" open-type="reLaunch">重新加载</navigator>
+    <navigator url="/pages/swiper/swiper" open-type="redirect">重新定向</navigator>
+</view>

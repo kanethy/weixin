@@ -1,0 +1,18 @@
+<button type="primary" bindtap="insert">插入记录</button>
+
+<button type="primary" bindtap="selectAll">查询所有记录</button>
+
+<button type="primary" bindtap="specialField">查询指定字段</button>
+
+<button type="primary" bindtap="orderBy">指定排序字段</button>
+
+<button type="primary" bindtap="skipAndLimit">限制返回数量</button>
+
+<button type="primary" bindtap="byCondition">指定查询条件</button>
+
+<view wx:if="{{results.length != 0}}" class="results">
+    <view wx:for="{{results}}" wx:key="index">
+        姓名：<block>{{item.uname}}</block>
+        年龄：<block>{{item.age}}</block>
+    </view>
+</view>

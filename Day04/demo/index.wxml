@@ -1,0 +1,8 @@
+<view class="container">  
+    <view wx:for="{{books}}" wx:key="index">
+        <view>
+          <image src="{{item.image}}"></image>
+        </view>
+        <view>{{item.title}}</view>
+    </view>
+</view>

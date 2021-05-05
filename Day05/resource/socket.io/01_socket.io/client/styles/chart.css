@@ -1,0 +1,186 @@
+body{
+    background-color: #fff;
+    font:14px/1.5 'Microsoft Yahei';
+}
+::-webkit-scrollbar {
+    width:12px;
+    }
+    /* 滚动槽 */
+    ::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+    border-radius:10px;
+    }
+    /* 滚动条滑块 */
+    ::-webkit-scrollbar-thumb {
+    border-radius:10px;
+    background:rgba(0,0,0,0.1);
+    -webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+    background:rgba(255,0,0,0.4);
+    }
+#login-container{
+    width:285px;
+    min-height:400px;
+    border-radius: 4px;;
+    margin:50px auto 0 auto;
+    background-color: #F5F5F5;
+    border:1px solid #ccc;
+}
+#login-container .login-title{
+    height: 40px;
+    line-height: 40px;
+    padding-left:10px;
+    border-bottom:1px solid #ddd;
+}
+#login-container .login-user-icon{
+    width:120px;
+    height: 120px;
+    margin: 50px auto;;
+}
+#login-container .login-item{
+    display: block;
+    margin:0 auto 10px auto;
+}
+#login-container .login-username{
+    width:190px;
+    height: 30px;
+    line-height: 30px;
+    padding:0 5px;
+    text-align: center;
+}
+#login-container .login-button{
+    width:204px;
+    background-color:#1AAD19;
+    border: none;
+    line-height: 40px;
+    color:#fff;
+}
+#chart-container::before,#chart-container::after{
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+#chart-container{
+    width:900px;
+    height: 500px;
+    margin: 50px auto;
+    border:1px solid #ccc;
+}
+#chart-container .chart-user-list{
+    float:left;
+    width:250px;
+    height: 500px;
+    background-color: #EAE8E7;
+}
+#chart-container .chart-user-list .user-item{
+    padding:10px;
+    border-bottom:1px solid #cccc;
+}
+#chart-container .chart-user-list .user-item img{
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+#chart-container .chart-main-area{
+    float:left;
+    width:650px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+#chart-container .chart-main-area .chart-main-title{
+    margin-bottom: 10px;;
+    height: 60px;
+    border-bottom:1px solid #cccc;
+}
+#chart-container .chart-main-area .chart-main-title h1{
+    margin-left:20px;
+    line-height: 60px;
+    font-size:18px;
+    
+}
+#chart-container .chart-list{
+    position: relative;
+    height: 295px;
+    overflow-Y: auto; 
+    overflow-X:hidden;
+}
+#chart-container .chart-list  .user-logined{
+    position: absolute;
+    bottom: 10px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    background-color: #DADADA;
+    color: #000;
+    left:190px;
+    transition:all 0.8s ease-in-out;  
+}
+#chart-container .chart-list .chart-item::after,#chart-container .chart-list .chart-item::before{
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+#chart-container .chart-list .chart-item{
+    margin-bottom: 10px;
+}
+#chart-container .chart-list .chart-item .user-face{
+    float:left;
+    margin:0 15px;
+}
+#chart-container .chart-list .chart-item .user-face img{
+    width:40px;
+    height: 40px;
+    border-radius: 5px;
+}
+#chart-container .chart-list .chart-item .user-message{
+    position: relative;
+    float:left;
+    padding:10px;
+    min-width: 100px;
+    max-width: 520px;
+    background: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+}
+#chart-container .chart-list .chart-item .user-message::before{
+    content: ' ';
+    position: absolute;
+    width:10px;
+    height:10px;
+    background: #fff;
+    top:10px;
+    left:-5px;
+    z-index: 222;
+    transform: rotate(45deg);
+    
+}
+#chart-container .chart-form{
+    height: 134px;
+    background: #fff;
+}
+#chart-container .chart-form .chart-form-message{
+    width:630px;
+    padding:5px 10px;
+    height: 95px;
+    line-height: 1.5;
+    resize:none;
+    border: none;
+}
+
+#chart-container .chart-form .chart-form-send{
+    float: right;
+    width: 70px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: #F5F5F5;
+    color: #606060;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

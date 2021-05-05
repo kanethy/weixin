@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{subjects}}" wx:key="index">
+    <navigator url="/pages/detail/detail?id={{item.id}}">
+      <view>
+        <image src="{{item.images.small}}"></image>
+      </view>
+      <view>{{item.title}}</view>
+    </navigator>
+  </view>
+</view>

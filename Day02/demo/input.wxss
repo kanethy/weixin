@@ -1,0 +1,4 @@
+view > view{
+  margin-bottom:20rpx;
+  border: 1px solid #999;
+}

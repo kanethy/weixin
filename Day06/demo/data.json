@@ -1,0 +1,72 @@
+{
+    "_id":"79550af26054a4d20aed75041971714b",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"jack",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":32,
+    "sex":false
+}
+{
+    "_id":"79550af26054a4d20aed75041971714c",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"lulu",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":30,
+    "sex":false
+}
+{
+    "_id":"79550af26054a4d20aed75041971714d",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"chuchu",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":28,
+    "sex":true
+}
+{
+    "_id":"79550af26054a4d20aed75041971714e",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"dd",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":33,
+    "sex":false
+}
+{
+    "_id":"79550af26054a4d20aed75041971714f",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"candy",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":30,
+    "sex":true
+}
+{
+    "_id":"79550af26054a4d20aed75041971714g",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"tt",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":32,
+    "sex":false
+}
+{
+    "_id":"79550af26054a4d20aed75041971714h",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"cindy",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":35,
+    "sex":true
+}
+{
+    "_id":"79550af26054a4d20aed75041971714k",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"taylor",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":30,
+    "sex":true
+}
+{
+    "_id":"79550af26054a4d20aed75041971714j",
+    "frients":[{"sex":false,"uname":"frank"},{"uname":"lili","sex":true}],
+    "uname":"kk",
+    "_openid":"onG765YvzCA7y8OY25b7r_JjDuiY",
+    "age":29,
+    "sex":true
+}

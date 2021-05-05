@@ -1,0 +1,2 @@
+<navigator url="/pages/page01/page01?cid=5&pid=6&id=9">链接到页面1并且传递相关的参数</navigator>
+<navigator url="/pages/page03/page03">正常链接到Page03</navigator>

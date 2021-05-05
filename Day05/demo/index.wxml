@@ -1,0 +1,54 @@
+<view class="container">
+    <!-- 轮播图开始 -->
+    <view class="swiper">
+      <swiper autoplay="true" indicator-dots="true" indicator-color="#fff" indicator-active-color="#A70A0B" circular="true">
+          <swiper-item wx:for="{{swipers}}" wx:key="index">
+              <image src="{{item}}"></image>
+          </swiper-item>
+      </swiper>
+    </view>
+    <!-- 轮播图结束 -->
+    <!-- 精选区域开始 -->
+    <view class="epub">
+        <!-- 单一精选项目开始 -->
+        <view 
+          class="epub-item" 
+          wx:for="{{epub}}" 
+          wx:key="index" 
+          wx:for-item="epubItem" 
+          wx:for-index="index">
+              <!-- 精选项目标题开始 -->
+              <view class="epub-item-header">{{epubItem.title}}</view>
+              <!-- 精选项目标题结束 -->             
+              <!-- 精选项目图书列表开始 -->
+              <view class="epub-booklist">
+                  <!-- 精选项目图书信息开始 -->                  
+                  <view 
+                      class="epub-booklist-item" 
+                      wx:for="{{epubItem.books}}" 
+                      wx:for-item="bookItem"
+                      wx:for-index="key"
+                      wx:key="key">
+                        <navigator url="/pages/view/view?id={{bookItem._id}}">                    
+                        <!-- 图书缩略图开始 -->
+                        <view class="cover">
+                              <image src="http://statics.zhuishushenqi.com{{bookItem.cover}}"></image>                           
+                        </view>
+                        <!-- 图书缩略图结束 -->
+                        <!-- 图书信息开始 -->
+                        <view class="txt">
+                              <view class="title">{{bookItem.title}}</view>
+                              <view class="desc">{{bookItem.shortIntro}}</view>
+                              <view class="author">{{bookItem.author}}</view>
+                        </view>
+                        <!-- 图书信息结束 -->
+                         </navigator>
+                  </view>
+                  <!-- 精选项目图书信息结束 -->
+              </view>
+              <!-- 精选项目图书列表结束 -->
+        </view>
+        <!-- 单一精选项目结束 -->
+    </view>
+    <!-- 精选区域结束 -->
+</view>

@@ -1,0 +1,16 @@
+<!-- 
+  input函数的作用就是将当前文本的值发送到Page.js中去
+  此时text再读取时就会发生变化了 
+-->
+<input type="text" placeholder="请输入信息" bindinput="input"></input>
+<text>{{text}}</text>
+<view wx:for="{{users}}" wx:key="index">
+  <text>{{item}}</text>
+  <button type="primary" bindtap="remove" data-id="{{index}}">删除</button>
+</view>
+<button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getphonenumber">获取电话号码</button>
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="getuserinfo">获取用户信息</button>
+<view>
+  <image src="{{userInfo.avatarUrl}}"></image>
+  <text>{{userInfo.nickName}}</text>
+</view>

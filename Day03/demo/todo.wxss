@@ -1,0 +1,42 @@
+.container{
+  margin:15rpx;
+}
+.heading{
+  display: block;
+  padding-bottom:10rpx;
+  font-size:36rpx;
+  color:#333;
+  border-bottom:1px dotted #666;
+}
+.input{
+  margin-top:15rpx;
+  display: flex;
+  align-items: center;
+}
+.input input{
+  flex: 5;
+  padding:8rpx 0;
+  margin-right:10rpx;
+  border:1px solid #999;
+}
+.input button{
+  flex: 1;
+}
+.tip{
+  margin-top: 15rpx;
+  color:#900;
+}
+.todolist{
+  margin-top: 15rpx;
+}
+.todoitem{
+  display: flex;
+  margin-bottom:15rpx;
+  align-items: center;
+}
+.todoitem text{
+  flex: 5;
+}
+.todoitem button{
+  flex: 1;
+}

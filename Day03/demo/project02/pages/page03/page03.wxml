@@ -1,0 +1,7 @@
+<navigator url="/pages/index/index" open-type="redirect">通过redirect链接到首页</navigator>
+
+<navigator url="/pages/index/index" open-type="reLaunch">通过reLaunch链接到首页</navigator>
+
+<button type="primary" bindtap="f3">通过redirect链接到首页</button>
+
+<button type="primary" bindtap="f4">通过reLaunch链接到首页</button>

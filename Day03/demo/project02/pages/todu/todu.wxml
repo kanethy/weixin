@@ -1,0 +1,15 @@
+<view class="container">
+  <text class="heading">待办事项列表:</text>
+  <view class="input">
+      <input type="text" placeholder="请输入待办事项" bindinput="input" value="{{worker}}"></input>
+      <button type="primary" size="mini" bindtap="add">添加</button>
+  </view>
+  <view class="tip" wx:if="{{toduList.length==0}}">对不起,您现在没有待办事项</view>
+  <view class="todolist" wx:else>
+      <view class="todoitem" wx:for="{{toduList}}" wx:key="index">
+          <text>{{index+1}},{{item}}</text>
+          <button type="primary" size="mini" bindtap="remove" data-id="{{index}}">删除</button>
+      </view>
+  </view>
+</view>
+

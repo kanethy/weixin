@@ -1,0 +1,6 @@
+<view class="view">
+  <button type="default">普通按钮</button>
+  <button type="primary">主要按钮</button>
+  <button type="warn">警告按钮</button>
+  <button type="primary" size="default">主要按钮</button>
+</view>

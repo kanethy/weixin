@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/func/func",
+    "pages/category/category",
+    "pages/view/view",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0aa1eb",
+    "navigationBarTitleText": "三味追书",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#A3A3A3",
+    "selectedColor": "#A70A0B",
+    "list": [
+      {
+      "pagePath":"pages/index/index",
+      "text": "书城",
+      "iconPath": "images/books.png",
+      "selectedIconPath": "images/books_active.png"
+    },
+    {
+      "pagePath":"pages/category/category",
+      "text": "分类",
+      "iconPath": "images/category.png",
+      "selectedIconPath": "images/category_active.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

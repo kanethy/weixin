@@ -1,0 +1,28 @@
+<view>
+  <text>轮播图</text>
+  <swiper 
+    class="swiper"
+    autoplay="true"
+    indicator-dots="true"
+    indicator-color="#333"
+    indicator-active-color="#fff"
+    circular="true"
+    duration="300">
+    <swiper-item>
+      <image src="http://m.iqiyipic.com/common/lego/20200814/21400e7200f940c2b82556f397adfb5e.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://m.iqiyipic.com/common/lego/20200814/fa9966746138434c8691e10fe62bba04.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="http://m.iqiyipic.com/common/lego/20200814/340f639c33994826b45aa9088bf45db4.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="http://m.iqiyipic.com/common/lego/20200813/0ca5f700e5f74b388761785ba0da4bcd.jpg"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="http://m.iqiyipic.com/common/lego/20200813/ff1595b80e7343bca492ee0f78572b63.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+

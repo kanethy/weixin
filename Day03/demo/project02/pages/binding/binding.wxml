@@ -1,0 +1,16 @@
+<!-- input函数的作用是将文本框输入的信息，返回到binding.js中，然后再讲信息返回到text中 -->
+<input type="text" placeholder="请输入信息" bindinput="input"></input>
+<text>{{text}}</text>
+
+<view wx:for="{{users}}" wx:key="index">
+    <text>{{item}}</text>
+    <button type="primary" bindtap="remove" data-id="{{index}}">删除</button>
+</view>
+
+<button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getphonenumber">获取电话号码</button>
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="getuserinfo">获取用户信息</button>
+
+<view wx:if="{{userInfo}}">
+    <image src="{{userInfo.avatarUrl}}"></image>
+    <text>{{userInfo.nickName}}</text>
+</view>

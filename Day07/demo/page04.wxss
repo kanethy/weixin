@@ -1,0 +1,7 @@
+button{
+  margin-bottom:15rpx;
+}
+.results view{
+  display: block;
+  margin-bottom:15rpx;
+}

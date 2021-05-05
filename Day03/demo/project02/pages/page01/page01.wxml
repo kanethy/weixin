@@ -1,0 +1,6 @@
+<navigator url="/pages/index/index">链接到首页</navigator>
+<navigator url="/pages/index/index" open-type="redirect">链接到首页--通过redirect</navigator>
+
+<navigator url="/pages/page02/page02">正常链接到page02</navigator>
+
+<button type="primary" bindtap="f1">正常链接到page02</button>

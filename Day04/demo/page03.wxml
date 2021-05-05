@@ -1,0 +1,2 @@
+<navigator url="/pages/index/index" open-type="reLaunch">通过reLaunch链接到index</navigator>
+<navigator url="/pages/index/index" open-type="redirect">通过redirect链接到index</navigator>
